@@ -15,13 +15,13 @@ import model_RS.RumahSakit;
 public class TestRumahSakit1 {
     public static void main(String[] args) {
         RumahSakit rs = new RumahSakit("Panti Rapih", "Yogyakarta");
-        Dokter dr1 = new Dokter("001", "Puspaningtyas");
-        Dokter dr2 = new Dokter("002", "Budi");
+        Dokter dr1 = new Dokter("598", "SANDRA SIBI");
+        Dokter dr2 = new Dokter("898", "LISA EMA");
         
-        rs.tambahDokter(dr1);
+        rs.tambahDokter(dr1); // tambah doktter
         rs.tambahDokter(dr2);
         
-        rs.simpanDataDokter();
+        rs.simpanDataDokter(); // data dokter di simpan di basis data
     }
    
 }

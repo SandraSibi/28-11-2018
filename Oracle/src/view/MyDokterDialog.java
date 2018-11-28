@@ -74,13 +74,14 @@ public class MyDokterDialog extends JDialog {
      */
     public void tambahDokter(){
         TambahDokterDialog tambahDokter = new TambahDokterDialog(this, rs);
-        tambahDokter.setVisible(true);
-    }
+          tambahDokter.setVisible(true);
+     
+          }
     /**
      * Fungsi untuk merefresh isi tabel dokter
      */
     public void refreshTabelDokter(){
-        
+        table.setModel(new DokterTableModel(rs.getDaftarDokter()));
     }
 
 }

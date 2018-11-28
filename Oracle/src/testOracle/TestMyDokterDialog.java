@@ -6,6 +6,7 @@
 package testOracle;
 
 import view.MyDokterDialog;
+import view.TambahDokterDialog;
 
 /**
  *
@@ -14,6 +15,6 @@ import view.MyDokterDialog;
 public class TestMyDokterDialog {
     public static void main(String[] args) {
         MyDokterDialog test = new MyDokterDialog(null, true);
-        
+       
     }
 }

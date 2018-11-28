@@ -22,8 +22,8 @@ public class MySql {
     private String userName;
     private String password;
     
-    public static String USER_NAME="rsku";
-    public static String PASSWORD="rsku";
+    public static String USER_NAME="RUMAH SAKIT";
+    public static String PASSWORD="RUMAH SAKIT";
 
     public MySql() {
     }
